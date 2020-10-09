@@ -1,0 +1,113 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "83fc2908-f757-4843-b2cf-9b996cc42717": {
+        "id": "83fc2908-f757-4843-b2cf-9b996cc42717",
+        "parent": null,
+        "name": "MyFirstProject9.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MyFirstProject9.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "MyFirstProject9"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigDebugDL1debugdl1any",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1602238975245,
+        "testCases": {
+          "e1943382-057e-47a1-a6d0-6e2ab08a1bb1": {
+            "id": "e1943382-057e-47a1-a6d0-6e2ab08a1bb1",
+            "functionId": "83fc2908-f757-4843-b2cf-9b996cc42717",
+            "name": "My First Test Case",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "83fc2908-f757-4843-b2cf-9b996cc42717"
+    ],
+    "currentFileId": "83fc2908-f757-4843-b2cf-9b996cc42717",
+    "resources": {
+      "apigDebugDL1debugdl1any": {
+        "name": "apigDebugDL1debugdl1any",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 1,
+          "apiName": "DebugDL1",
+          "apiId": "kjlpky9o0k",
+          "endpointType": "EDGE",
+          "rootResourceId": "4vkoi0e0mh",
+          "existingResources": {
+            "/debugdl1": "3qgt5x",
+            "/": "4vkoi0e0mh"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/debugdl1",
+          "resourceName": "debugdl1",
+          "resourceId": "3qgt5x",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "dev",
+          "stageDeploymentId": "5ph0l7",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.4",
+    "projectName": "MyFirstProject9",
+    "projectDescription": "My First Project",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1602239025104
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "myfirstproject9",
+      "url": "https://github.com/Kumudikatest/myfirstproject9"
+    }
+  }
+}
